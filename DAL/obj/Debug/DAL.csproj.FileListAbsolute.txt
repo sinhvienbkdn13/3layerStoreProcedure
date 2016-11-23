@@ -1,0 +1,7 @@
+D:\Exam C#\Sinhvien\DAL\bin\Debug\DAL.dll
+D:\Exam C#\Sinhvien\DAL\bin\Debug\DAL.pdb
+D:\Exam C#\Sinhvien\DAL\bin\Debug\DTO.dll
+D:\Exam C#\Sinhvien\DAL\bin\Debug\DTO.pdb
+D:\Exam C#\Sinhvien\DAL\obj\Debug\DAL.csprojResolveAssemblyReference.cache
+D:\Exam C#\Sinhvien\DAL\obj\Debug\DAL.dll
+D:\Exam C#\Sinhvien\DAL\obj\Debug\DAL.pdb

@@ -1,0 +1,9 @@
+D:\Exam C#\Sinhvien\BUS\bin\Debug\BUS.dll
+D:\Exam C#\Sinhvien\BUS\bin\Debug\BUS.pdb
+D:\Exam C#\Sinhvien\BUS\bin\Debug\DAL.dll
+D:\Exam C#\Sinhvien\BUS\bin\Debug\DTO.dll
+D:\Exam C#\Sinhvien\BUS\bin\Debug\DAL.pdb
+D:\Exam C#\Sinhvien\BUS\bin\Debug\DTO.pdb
+D:\Exam C#\Sinhvien\BUS\obj\Debug\BUS.csprojResolveAssemblyReference.cache
+D:\Exam C#\Sinhvien\BUS\obj\Debug\BUS.dll
+D:\Exam C#\Sinhvien\BUS\obj\Debug\BUS.pdb

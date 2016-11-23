@@ -1,0 +1,13 @@
+D:\Exam C#\Sinhvien\Sinhvien\bin\Debug\Sinhvien.exe.config
+D:\Exam C#\Sinhvien\Sinhvien\bin\Debug\Sinhvien.exe
+D:\Exam C#\Sinhvien\Sinhvien\bin\Debug\Sinhvien.pdb
+D:\Exam C#\Sinhvien\Sinhvien\bin\Debug\BUS.dll
+D:\Exam C#\Sinhvien\Sinhvien\bin\Debug\DAL.dll
+D:\Exam C#\Sinhvien\Sinhvien\bin\Debug\BUS.pdb
+D:\Exam C#\Sinhvien\Sinhvien\bin\Debug\DAL.pdb
+D:\Exam C#\Sinhvien\Sinhvien\obj\Debug\Sinhvien.csprojResolveAssemblyReference.cache
+D:\Exam C#\Sinhvien\Sinhvien\obj\Debug\Sinhvien.Form1.resources
+D:\Exam C#\Sinhvien\Sinhvien\obj\Debug\Sinhvien.Properties.Resources.resources
+D:\Exam C#\Sinhvien\Sinhvien\obj\Debug\Sinhvien.csproj.GenerateResource.Cache
+D:\Exam C#\Sinhvien\Sinhvien\obj\Debug\Sinhvien.exe
+D:\Exam C#\Sinhvien\Sinhvien\obj\Debug\Sinhvien.pdb
