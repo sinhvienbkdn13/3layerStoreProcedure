@@ -15,5 +15,9 @@ namespace BUS
         {
             return StudentDAL.SelectAll();
         }
+        public bool InsertStudent()
+        {
+            return StudentDAL.Insert();
+        }
     }
 }

@@ -1,6 +1,6 @@
 ﻿namespace Sinhvien
 {
-    partial class Form1
+    partial class StudentManager
     {
         /// <summary>
         /// Required designer variable.
@@ -31,23 +31,23 @@
             this.txtStudentID = new System.Windows.Forms.TextBox();
             this.label1 = new System.Windows.Forms.Label();
             this.groupBox1 = new System.Windows.Forms.GroupBox();
+            this.dtpBirthday = new System.Windows.Forms.DateTimePicker();
+            this.cboMajor = new System.Windows.Forms.ComboBox();
+            this.label7 = new System.Windows.Forms.Label();
+            this.label5 = new System.Windows.Forms.Label();
+            this.label3 = new System.Windows.Forms.Label();
+            this.label6 = new System.Windows.Forms.Label();
+            this.label4 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
             this.txtSurname = new System.Windows.Forms.TextBox();
-            this.label3 = new System.Windows.Forms.Label();
-            this.txtFirstname = new System.Windows.Forms.TextBox();
-            this.label4 = new System.Windows.Forms.Label();
-            this.label5 = new System.Windows.Forms.Label();
             this.txtSex = new System.Windows.Forms.TextBox();
-            this.label6 = new System.Windows.Forms.Label();
-            this.label7 = new System.Windows.Forms.Label();
+            this.txtFirstname = new System.Windows.Forms.TextBox();
             this.dgvStudentlist = new System.Windows.Forms.DataGridView();
             this.btnAdd = new System.Windows.Forms.Button();
             this.btnUpdate = new System.Windows.Forms.Button();
             this.btnDelete = new System.Windows.Forms.Button();
             this.btnClear = new System.Windows.Forms.Button();
             this.btnExit = new System.Windows.Forms.Button();
-            this.cboMajor = new System.Windows.Forms.ComboBox();
-            this.dtpBirthday = new System.Windows.Forms.DateTimePicker();
             this.groupBox1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dgvStudentlist)).BeginInit();
             this.SuspendLayout();
@@ -90,6 +90,67 @@
             this.groupBox1.TabStop = false;
             this.groupBox1.Text = "Student\'s Infomation";
             // 
+            // dtpBirthday
+            // 
+            this.dtpBirthday.Format = System.Windows.Forms.DateTimePickerFormat.Short;
+            this.dtpBirthday.Location = new System.Drawing.Point(382, 59);
+            this.dtpBirthday.Name = "dtpBirthday";
+            this.dtpBirthday.Size = new System.Drawing.Size(137, 20);
+            this.dtpBirthday.TabIndex = 3;
+            // 
+            // cboMajor
+            // 
+            this.cboMajor.FormattingEnabled = true;
+            this.cboMajor.Location = new System.Drawing.Point(599, 59);
+            this.cboMajor.Name = "cboMajor";
+            this.cboMajor.Size = new System.Drawing.Size(121, 21);
+            this.cboMajor.TabIndex = 2;
+            // 
+            // label7
+            // 
+            this.label7.AutoSize = true;
+            this.label7.Location = new System.Drawing.Point(540, 62);
+            this.label7.Name = "label7";
+            this.label7.Size = new System.Drawing.Size(53, 13);
+            this.label7.TabIndex = 1;
+            this.label7.Text = "Major ID :";
+            // 
+            // label5
+            // 
+            this.label5.AutoSize = true;
+            this.label5.Location = new System.Drawing.Point(327, 62);
+            this.label5.Name = "label5";
+            this.label5.Size = new System.Drawing.Size(51, 13);
+            this.label5.TabIndex = 1;
+            this.label5.Text = "Birthday :";
+            // 
+            // label3
+            // 
+            this.label3.AutoSize = true;
+            this.label3.Location = new System.Drawing.Point(123, 62);
+            this.label3.Name = "label3";
+            this.label3.Size = new System.Drawing.Size(55, 13);
+            this.label3.TabIndex = 1;
+            this.label3.Text = "Surname :";
+            // 
+            // label6
+            // 
+            this.label6.AutoSize = true;
+            this.label6.Location = new System.Drawing.Point(545, 22);
+            this.label6.Name = "label6";
+            this.label6.Size = new System.Drawing.Size(48, 13);
+            this.label6.TabIndex = 1;
+            this.label6.Text = "Gender :";
+            // 
+            // label4
+            // 
+            this.label4.AutoSize = true;
+            this.label4.Location = new System.Drawing.Point(320, 22);
+            this.label4.Name = "label4";
+            this.label4.Size = new System.Drawing.Size(58, 13);
+            this.label4.TabIndex = 1;
+            this.label4.Text = "Firstname :";
+            // 
             // label2
             // 
             this.label2.AutoSize = true;
@@ -106,14 +167,12 @@
             this.txtSurname.Size = new System.Drawing.Size(112, 20);
             this.txtSurname.TabIndex = 0;
             // 
-            // label3
+            // txtSex
             // 
-            this.label3.AutoSize = true;
-            this.label3.Location = new System.Drawing.Point(123, 62);
-            this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(55, 13);
-            this.label3.TabIndex = 1;
-            this.label3.Text = "Surname :";
+            this.txtSex.Location = new System.Drawing.Point(599, 19);
+            this.txtSex.Name = "txtSex";
+            this.txtSex.Size = new System.Drawing.Size(68, 20);
+            this.txtSex.TabIndex = 0;
             // 
             // txtFirstname
             // 
@@ -122,49 +181,6 @@
             this.txtFirstname.Size = new System.Drawing.Size(135, 20);
             this.txtFirstname.TabIndex = 0;
             // 
-            // label4
-            // 
-            this.label4.AutoSize = true;
-            this.label4.Location = new System.Drawing.Point(320, 22);
-            this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(58, 13);
-            this.label4.TabIndex = 1;
-            this.label4.Text = "Firstname :";
-            // 
-            // label5
-            // 
-            this.label5.AutoSize = true;
-            this.label5.Location = new System.Drawing.Point(327, 62);
-            this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(51, 13);
-            this.label5.TabIndex = 1;
-            this.label5.Text = "Birthday :";
-            // 
-            // txtSex
-            // 
-            this.txtSex.Location = new System.Drawing.Point(599, 19);
-            this.txtSex.Name = "txtSex";
-            this.txtSex.Size = new System.Drawing.Size(68, 20);
-            this.txtSex.TabIndex = 0;
-            // 
-            // label6
-            // 
-            this.label6.AutoSize = true;
-            this.label6.Location = new System.Drawing.Point(562, 22);
-            this.label6.Name = "label6";
-            this.label6.Size = new System.Drawing.Size(31, 13);
-            this.label6.TabIndex = 1;
-            this.label6.Text = "Sex :";
-            // 
-            // label7
-            // 
-            this.label7.AutoSize = true;
-            this.label7.Location = new System.Drawing.Point(558, 62);
-            this.label7.Name = "label7";
-            this.label7.Size = new System.Drawing.Size(39, 13);
-            this.label7.TabIndex = 1;
-            this.label7.Text = "Major :";
-            // 
             // dgvStudentlist
             // 
             this.dgvStudentlist.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
@@ -172,6 +188,7 @@
             this.dgvStudentlist.Name = "dgvStudentlist";
             this.dgvStudentlist.Size = new System.Drawing.Size(582, 172);
             this.dgvStudentlist.TabIndex = 2;
+            this.dgvStudentlist.CellClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dgvStudentlist_CellClick);
             // 
             // btnAdd
             // 
@@ -181,6 +198,7 @@
             this.btnAdd.TabIndex = 3;
             this.btnAdd.Text = "Add";
             this.btnAdd.UseVisualStyleBackColor = true;
+            this.btnAdd.Click += new System.EventHandler(this.btnAdd_Click);
             // 
             // btnUpdate
             // 
@@ -218,23 +236,7 @@
             this.btnExit.Text = "Exit";
             this.btnExit.UseVisualStyleBackColor = true;
             // 
-            // cboMajor
-            // 
-            this.cboMajor.FormattingEnabled = true;
-            this.cboMajor.Location = new System.Drawing.Point(599, 59);
-            this.cboMajor.Name = "cboMajor";
-            this.cboMajor.Size = new System.Drawing.Size(121, 21);
-            this.cboMajor.TabIndex = 2;
-            // 
-            // dtpBirthday
-            // 
-            this.dtpBirthday.Format = System.Windows.Forms.DateTimePickerFormat.Short;
-            this.dtpBirthday.Location = new System.Drawing.Point(382, 59);
-            this.dtpBirthday.Name = "dtpBirthday";
-            this.dtpBirthday.Size = new System.Drawing.Size(137, 20);
-            this.dtpBirthday.TabIndex = 3;
-            // 
-            // Form1
+            // StudentManager
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
@@ -247,7 +249,7 @@
             this.Controls.Add(this.dgvStudentlist);
             this.Controls.Add(this.groupBox1);
             this.Controls.Add(this.label1);
-            this.Name = "Form1";
+            this.Name = "StudentManager";
             this.Text = "Form1";
             this.Load += new System.EventHandler(this.Form1_Load);
             this.groupBox1.ResumeLayout(false);

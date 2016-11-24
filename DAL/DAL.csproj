@@ -41,6 +41,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="DBConnection.cs" />
+    <Compile Include="KhoaDB.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="StudentDB.cs" />
   </ItemGroup>
